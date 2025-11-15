@@ -1,0 +1,22 @@
+# Customer Service Chatbot API - Dependencies
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# OpenAI Integration
+openai==1.10.0
+
+# Environment Variables & Configuration
+python-dotenv==1.0.1
+pydantic-settings==2.1.0
+
+# Data Validation
+pydantic==2.6.0
+
+# Additional Dependencies
+python-multipart==0.0.6
+httpx==0.26.0
+
+# Rate Limiting (optional - app works without it)
+slowapi==0.1.9
